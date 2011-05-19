@@ -2,7 +2,7 @@ import hashlib
 
 import os
 
-ls=os.popen("ls Tables/GeoMIP*")
+ls=os.popen("ls Tables/LUCID*")
 
 if os.path.exists("Tables/md5s"):
     f=open("Tables/md5s")
